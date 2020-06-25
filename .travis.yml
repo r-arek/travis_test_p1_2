@@ -11,8 +11,8 @@ matrix:
         script:
             - g++ hello.cpp                     
             
-        language: ruby
-        rvm:
-            - 2.5
-        script:
-            - ruby hello.rb
+        #language: ruby
+        #rvm:
+        #    - 2.5
+        #script:
+        #    - ruby hello.rb
