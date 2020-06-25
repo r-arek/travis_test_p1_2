@@ -5,13 +5,13 @@ matrix:
     group: dev
     
     include:
-        - language:
+        - language: ruby
           rvm:
             - 2.5
           script:
             - ruby hello.rb
         
-        - language:
+        - language: cpp
           compiler: clang
           script:
             - g++ hello.cpp          
